@@ -4,7 +4,7 @@ importClass(java.net.HttpURLConnection);
 importClass(java.net.URL);
 importClass(java.io.File);
 importClass(java.io.FileOutputStream);
-var url = 'https://git.yumenaka.net/https://raw.githubusercontent.com/Twelve-blog/Study_hamibot/main/QuestionBank.db';
+var url = 'https://gh.fakev.cn/Pandaver/XXQG_TiKu_Transform/raw/main/QuestionBank.db';
 var path = '/sdcard/QuestionBank.db';
 device.wakeUpIfNeeded(); //点亮屏幕
 var first = true;//记录答题的第一次
@@ -57,7 +57,7 @@ var question_list = [];
 var init_true = false;
 var downloadDialog = null;
 // var init_url = "https://git.yumenaka.net/https://raw.githubusercontent.com/Twelve-blog/picture/master/question";    
-var init_url = 'https://git.yumenaka.net/https://raw.githubusercontent.com/Twelve-blog/Study_hamibot/main/question';
+var init_url = 'https://raw.gh.fakev.cn/Pandaver/XXQG_TiKu_Transform/main/question';
 var file_tmp = false;
 var tikus = '';
 /**
